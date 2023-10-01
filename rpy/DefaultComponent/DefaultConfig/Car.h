@@ -72,9 +72,6 @@ public :
 protected :
 
     //## auto_generated
-    void initRelations();
-    
-    //## auto_generated
     void initStatechart();
     
     ////    Attributes    ////
@@ -88,6 +85,8 @@ protected :
     Engine itsEngine;		//## link itsEngine
     
     ////    Framework operations    ////
+    
+    ////    Framework    ////
 
 public :
 
@@ -104,8 +103,6 @@ public :
     // TurnOn:
     //## statechart_method
     inline bool TurnOn_IN() const;
-    
-    ////    Framework    ////
 
 protected :
 

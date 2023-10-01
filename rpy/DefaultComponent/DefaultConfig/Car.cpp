@@ -17,7 +17,6 @@
 //## class Car
 Car::Car(IOxfActive* theActiveContext) {
     setActiveContext(theActiveContext, false);
-    initRelations();
     initStatechart();
 }
 
@@ -66,10 +65,6 @@ bool Car::startBehavior() {
     bool done = true;
     done &= OMReactive::startBehavior();
     return done;
-}
-
-void Car::initRelations() {
-    itsEngine._setItsCar(this);
 }
 
 void Car::initStatechart() {

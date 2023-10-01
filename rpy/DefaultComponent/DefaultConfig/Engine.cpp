@@ -50,7 +50,7 @@ Car* Engine::getItsCar() const {
 }
 
 void Engine::setItsCar(Car* p_Car) {
-    _setItsCar(p_Car);
+    itsCar = p_Car;
 }
 
 void Engine::cleanUpRelations() {
@@ -58,18 +58,6 @@ void Engine::cleanUpRelations() {
         {
             itsCar = NULL;
         }
-}
-
-void Engine::__setItsCar(Car* p_Car) {
-    itsCar = p_Car;
-}
-
-void Engine::_setItsCar(Car* p_Car) {
-    __setItsCar(p_Car);
-}
-
-void Engine::_clearItsCar() {
-    itsCar = NULL;
 }
 
 /*********************************************************************

@@ -74,17 +74,6 @@ protected :
     Car* itsCar;		//## link itsCar
     
     ////    Framework operations    ////
-
-public :
-
-    //## auto_generated
-    void __setItsCar(Car* p_Car);
-    
-    //## auto_generated
-    void _setItsCar(Car* p_Car);
-    
-    //## auto_generated
-    void _clearItsCar();
 };
 
 #endif
