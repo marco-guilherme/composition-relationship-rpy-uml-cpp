@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.6.0 * 2071527
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "composition-relationship-rpy-uml-cpp.rpy" ""
+	"composition-relationship-rpy-uml-cpp_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"composition-relationship-rpy-uml-cpp_rpy\\Relationship.sbs" "Relationship"
+	
+}
+
